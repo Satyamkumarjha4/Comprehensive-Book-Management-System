@@ -1,6 +1,6 @@
 # Comprehensive Book Management System
 
-This project is a Comprehensive Book Management System developed using Python and SQLite. It provides a user-friendly interface for managing a collection of books, including features for adding, viewing, updating, and deleting book records.
+This project is a Comprehensive Book Management System developed using Python, PyQt5, and SQLite. It provides a user-friendly interface for managing a collection of books, including features for adding, viewing, updating, and deleting book records.
 
 ## Features
 
@@ -14,11 +14,6 @@ This project is a Comprehensive Book Management System developed using Python an
 ## Technologies Used
 
 - **Python:** Core programming language used for backend logic and database interaction.
+- **PyQt5:** Python's GUI framework used for building the user interface.
 - **SQLite:** Database used for storing book information.
-- **Tkinter:** Python's standard GUI library used for building the user interface.
-
-## How to Run
-
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/Satyamkumarjha4/Comprehensive-Book-Management-System.git
+- 
