@@ -5,7 +5,7 @@ import sqlite3
 def fetch_book_names():
     book_names = ["---Select Book---"]
     try:
-        Books_file = sqlite3.connect('C:/Users/satya/OneDrive/Desktop/GUI/books.db')
+        Books_file = sqlite3.connect('books.db')
         cursor_books = Books_file.cursor()
         cursor_books.execute('SELECT Books_Name FROM Books;')
         record = cursor_books.fetchone()
@@ -24,7 +24,7 @@ def fetch_book_price(book_title):
     if book_title == "---Select Book---":
         return 0.0
     try:
-        Books_file = sqlite3.connect('C:/Users/satya/OneDrive/Desktop/GUI/books.db')
+        Books_file = sqlite3.connect('books.db')
         cursor_books = Books_file.cursor()
         cursor_books.execute('SELECT Books_Price FROM Books WHERE Books_Name = ?', (book_title,))
         record = cursor_books.fetchone()
