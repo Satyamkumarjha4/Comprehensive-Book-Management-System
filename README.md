@@ -16,4 +16,7 @@ This project is a Comprehensive Book Management System developed using Python, P
 - **Python:** Core programming language used for backend logic and database interaction.
 - **PyQt5:** Python's GUI framework used for building the user interface.
 - **SQLite:** Database used for storing book information.
-- 
+- **Streamlit:** Updated the project to use Streamlit for a modern, responsive web interface.
+
+## Live Server
+- **Running the program:** https://comprehensive-book-management-system-g9xnrkke7kbizjspe25mre.streamlit.app/
